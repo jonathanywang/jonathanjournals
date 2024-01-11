@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.index {
+    /*background-image: url(../img/IMG_5452.jpeg);*/
+    background-color: #5CDB95;
+    background-size: cover;
+    background-position: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+/*header {
+    background-color: #59594A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+*/
+
+.top-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #05386B;
+}
+
+
+.pages a:link {
+    float: right;
+    color: #05386B;
+    padding: 14px 10px;
+    margin-right: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Cambria, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+
+
+.pages a:visited {
+    color: #05386B;
+}
+
+.pages a:hover,
+a:focus {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.pages a:active {
+    color: #05386B;
+}
+
+.home a:link {
+    float: left;
+    color: #05386B;
+    padding: 14px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Cambria, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.home a:visited {
+    color: #05386B;
+}
+
+.home a:hover,
+a:focus {
+    text-underline-offset: 4px;
+}
+
+.home a:active {
+    color: #05386B;
+}
+
+.dropdown{
+    float: right;
+}
+.dropdown button {
+    background-color: transparent;
+    color: #05386B;
+    padding: 14px 16px;
+    border: none;
+    margin-right: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Cambria, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+}
+.dropdown a:link{
+    float: left;
+    display: block;
+    color: #05386B;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 100px;
+    box-shadow:2px 2px 5px black;
+    background-color: rgba(255, 255, 255, 0.30);;
+    border-radius: 8px;
+    margin-right: 5px;
+    padding-left: 10px;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    text-decoration: none;
+}
+.dropdown a:hover{
+    text-decoration: underline;
+}
+.dropdown a:visited{
+    color: #05386B;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.front-page {
+    float: left;
+    font-size: 6vw;
+    color: #EDF5E1;
+    font-family: Calibri, Helvetica, Arial;
+    text-align: left;
+    margin-right: 0;
+}
+
+.big-text {
+    font-size: 12vw;
+}
+
+.home-name {
+    margin-bottom: -30px;
+}
+
+.home-title {
+    margin-top: -30px;
+    clear: both;
+    margin-left: 35px;
+}
+
+.fp-container {
+    width: 95%;
+}
+
+.fp-container .image {
+    float: right;
+    image-resolution: 1080p;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    margin-bottom: 20%;
+    margin-top: 5%;
+    border: 10px solid #05386B;
+    border-start-start-radius: 55%;
+    border-end-end-radius: 55%;
+}
+
+
+
+
+/*
+section {
+    float: left;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+*/
+
+footer {
+    background-color: #05386B;
+    clear: both;
+    padding: 68px 0;
+    text-align: center;
+}
+
+.description {
+    clear: both;
+    font-size: 3vw;
+    color: #EDF5E1;
+    font-family: Cambria, Calibri, Helvetica, Arial;
+    text-align: center;
+    animation: fadeIn 10s;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
