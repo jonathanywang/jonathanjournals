@@ -241,3 +241,10 @@ aside {
     font-family: Roboto, Cambria, Calibri, Helvetica, Arial;
     font-size: 30px;
 }
+
+footer {
+    background-color: #379683;
+    padding: 10px;
+    color: #EDF5E1;
+    font-family: 'Times New Roman', Times, serif;
+}
