@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.index {
+.core {
     /*background-image: url(../img/IMG_5452.jpeg);*/
     background-color: #5CDB95;
     background-size: cover;
@@ -137,7 +137,6 @@ a:focus {
 
 
 .container {
-    width: 80%;
     height: 0;
     margin: 0 auto;
 }
@@ -166,7 +165,9 @@ a:focus {
 }
 
 .fp-container {
-    width: 95%;
+    width: 80%;
+    margin: 0 auto;
+    height: 0;
 }
 
 .fp-container .image {
@@ -241,6 +242,80 @@ aside {
     font-family: Roboto, Cambria, Calibri, Helvetica, Arial;
     font-size: 30px;
 }
+
+
+/* about me page */
+.introduction {
+    background-color: #5CDB95;
+    height: 1000px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2vw;
+    font-family: Cambria, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#05386B;
+
+}
+
+.childhood {
+    margin-top: -20px;
+    background-color:#05386B;
+    height: 500px;
+}
+
+.dreams {
+    background-color: #5CDB95;
+    height: 500px;
+    margin-top: -20px;
+}
+
+.container .p1 {
+    margin-left: 5%;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.container h1 {
+    margin: 0px;
+}
+
+.container .p2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.container .p3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.container .image1{
+    float: right;
+    width: 30vw;
+    height: 20vw;
+    border: 3px solid #EDF5E1;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.container .image2{
+    float: left;
+    width: 21.77vw;
+    height: 30vw;
+    border: 3px solid #EDF5E1;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+
 
 footer {
     background-color: #379683;
