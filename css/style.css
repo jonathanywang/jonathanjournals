@@ -305,7 +305,7 @@ aside {
     padding-bottom: 50px;
 }
 
-.container .image1{
+.introduction .image1{
     clear: both;
     border: 5px solid #EDF5E1;
     display: block;
@@ -315,7 +315,7 @@ aside {
     margin-bottom: 0px;
 }
 
-.container .image2{
+.introduction .image2{
     clear: both;
     border: 5px solid #EDF5E1;
     display: block;
@@ -325,7 +325,17 @@ aside {
     margin-bottom: 0px;
 }
 
-.container .caption {
+.childhood .image1{
+    clear: both;
+    border: 5px solid #EDF5E1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.introduction .caption {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -337,7 +347,17 @@ aside {
     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 }
 
-
+.childhood .caption {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #5CDB95;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
 
 footer {
     background-color: #379683;
