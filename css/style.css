@@ -283,7 +283,7 @@ aside {
 .container h1 {
     margin: 0px;
     margin-bottom: 20px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .container .p2 {
@@ -302,12 +302,12 @@ aside {
     text-align: center;
     margin-bottom: 0px;
     margin-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .introduction .image1{
     clear: both;
-    border: 5px solid #EDF5E1;
+    border: 5px solid #05386B;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -317,7 +317,7 @@ aside {
 
 .introduction .image2{
     clear: both;
-    border: 5px solid #EDF5E1;
+    border: 5px solid #05386B;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -327,7 +327,17 @@ aside {
 
 .childhood .image1{
     clear: both;
-    border: 5px solid #EDF5E1;
+    border: 5px solid #5CDB95;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.childhood .image2{
+    clear: both;
+    border: 5px solid #5CDB95;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -358,6 +368,7 @@ aside {
     font-style: italic;
     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 }
+
 
 footer {
     background-color: #379683;
