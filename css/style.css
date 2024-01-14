@@ -413,7 +413,7 @@ aside {
 }
 
 /* Journal One Entry*/
-.journal1 {
+.journal {
     background-color: #5CDB95;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -423,9 +423,50 @@ aside {
     line-height: 100px;
 }
 
-.journal1 h1 {
+.journal h1 {
     padding-top: 40px;
     text-align: center;
+}
+
+.journal h5 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.journal .date {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #05386B;
+    font-size: 35px;
+    font-style: italic;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+.journal img {
+    clear: both;
+    border: 5px solid #EDF5E1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.journal .caption {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #05386B;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    line-height: 70px;
 }
 
 
