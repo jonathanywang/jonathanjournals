@@ -472,6 +472,7 @@ aside {
 
 form {
     transition: all 4s ease-in-out;
+    margin-bottom: 100px;
 }
 
 .form-control
@@ -494,11 +495,12 @@ form .submit {
     background: #05386B;
     border-color: transparent;
     color: #EDF5E1;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     letter-spacing: 2px;
-    height: 50px;
+    height: 80px;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 form .submit:hover {
@@ -508,9 +510,111 @@ form .submit:hover {
 
 
 .contact-form {
-    margin-top: 100px;
     background-color: #5CDB95;
     text-align: center;
+}
+
+.contact-text h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    margin-bottom: 55px;
+    font-weight: bold;
+    font-size: 70px;
+    color: #05386B;
+    background-color: #5CDB95;
+
+}
+
+.socials {
+    background-color: #05386B;
+    padding: 200px;
+    padding-top: 30px;
+    margin:
+}
+
+.socials h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    margin-bottom: 55px;
+    font-weight: bold;
+    font-size: 70px;
+    color: #5CDB95;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+    gap: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.55);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* for all social containers*/
+.socialContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+  }
+  /* instagram*/
+.containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+  }
+  /* github*/
+.containerTwo:hover {
+    background-color: #6e5494;
+    transition-duration: 0.3s;
+  }
+  /* linkdin*/
+.containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+  }
+  /* Gmail*/
+.containerFour:hover {
+    background-color: yellowgreen;
+    transition-duration: 0.3s;
+  }
+  
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+.socialSvg {
+    width: 35px;
+  }
+  
+.socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+.socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+@keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+}
+  
+100% {
+      transform: translateY(0);
+      opacity: 1;
+}
 }
 
 
