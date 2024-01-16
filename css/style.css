@@ -528,7 +528,8 @@ form .submit:hover {
 .socials {
     background-color: #05386B;
     padding: 200px;
-    padding-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 300px;
     margin: 0px;
 }
 
