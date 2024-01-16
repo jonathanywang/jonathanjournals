@@ -467,6 +467,50 @@ aside {
     font-style: italic;
     font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
     line-height: 70px;
+    width: 75%;
+}
+
+form {
+    transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+    width: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #EDF5E1;
+    color: #EDF5E1;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #05386B;
+    border-color: transparent;
+    color: #EDF5E1;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #094581;
+    cursor: pointer;
+}
+
+
+.contact-form {
+    margin-top: 100px;
+    background-color: #5CDB95;
+    text-align: center;
 }
 
 
