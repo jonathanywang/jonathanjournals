@@ -522,7 +522,8 @@ form .submit:hover {
     font-size: 70px;
     color: #05386B;
     background-color: #5CDB95;
-
+    text-decoration: underline;
+    text-underline-offset: 15px;
 }
 
 .socials {
