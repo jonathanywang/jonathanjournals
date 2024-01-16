@@ -512,6 +512,7 @@ form .submit:hover {
 .contact-form {
     background-color: #5CDB95;
     text-align: center;
+    margin-top: 20px;
 }
 
 .contact-text h1 {
