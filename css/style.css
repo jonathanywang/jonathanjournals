@@ -620,8 +620,169 @@ form .submit:hover {
 }
 }
 
+/* Portfolio Page */
+.portfolio {
+    background-color: #5CDB95;
+    margin: 0;
+    margin-top: 75px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio h1{
+    padding-top: 0px;
+}
+
+.portfolio .header{
+    margin: 5px;
+    border-bottom: 3px dotted #EDF5E1;
+    background-color: #5CDB95;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header:hover {
+    transform: scale(1.1);
+}
+
+.name {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:#05386B;
+}
+
+.personal-info {
+    text-align: center;
+    color: #05386B;
+}
+
+.school {
+    background-color: rgba(231, 251, 240, 0.1);
+    border: 5px solid #EDF5E1;
+    border-radius: 15px;
+    width: 30%;
+    padding: 5px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+.school:hover {
+    transform: scale(1.1);
+}
+
+.school-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.school p{
+    text-align: center;
+    color: #05386B;
+    font-size: 25px;
+}
+
+.technical-skills {
+    background-color: rgba(231, 251, 240, 0.1);
+    border: 5px solid #EDF5E1;
+    border-radius: 15px;
+    width: 60%;
+    padding: 5px;
+    padding-top: 39px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+.technical-skills:hover {
+    transform: scale(1.1);
+}
+
+
+.technical-skills h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #05386B;
+}
+
+.technical-skills p{
+    text-align: center;
+    color: #05386B;
+    font-size: 25px;
+}
+
+.experiences {
+    width: 75%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #EDF5E1;
+    padding: 100px;
+    padding-top: 70px;
+}
+
+.experiences .experience-title{
+    text-align: center;
+    color: #05386B;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.robotics {
+    border: 5px solid #EDF5E1;
+    background-color: rgba(231, 251, 240, 0.1);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-flow: dense;
+    align-items: center; 
+    padding: 50px;
+    text-align: center;
+    color: #05386B;
+}
+
+.robotics:hover {
+    transform: scale(1.05);
+}
+
+.robotics h1{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.robotics p {
+    font-size: 20px;
+}
+
+.cubesat {
+    margin-top: 50px;
+    border: 5px solid #EDF5E1;
+    background-color: rgba(231, 251, 240, 0.1);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-flow: dense;
+    align-items: center; 
+    padding: 50px;
+    text-align: center;
+    color: #05386B;
+}
+
+.cubesat:hover {
+    transform: scale(1.05);
+}
+
 
 footer {
+    clear: both;
     background-color: #379683;
     padding: 10px;
     color: #EDF5E1;
