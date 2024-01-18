@@ -663,7 +663,7 @@ form .submit:hover {
     background-color: rgba(231, 251, 240, 0.1);
     border: 5px solid #EDF5E1;
     border-radius: 15px;
-    width: 30%;
+    width: 40%;
     padding: 5px;
     padding-top: 20px;
     margin-left: auto;
@@ -691,7 +691,7 @@ form .submit:hover {
     background-color: rgba(231, 251, 240, 0.1);
     border: 5px solid #EDF5E1;
     border-radius: 15px;
-    width: 60%;
+    width: 65%;
     padding: 5px;
     padding-top: 39px;
     padding-bottom: 30px;
@@ -725,6 +725,7 @@ form .submit:hover {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #EDF5E1;
+    border-radius: 15px;
     padding: 100px;
     padding-top: 70px;
 }
@@ -737,7 +738,6 @@ form .submit:hover {
 }
 
 .robotics {
-    border: 5px solid #EDF5E1;
     background-color: rgba(231, 251, 240, 0.1);
     border-radius: 15px;
     display: grid;
@@ -764,7 +764,6 @@ form .submit:hover {
 
 .cubesat {
     margin-top: 50px;
-    border: 5px solid #EDF5E1;
     background-color: rgba(231, 251, 240, 0.1);
     border-radius: 15px;
     display: grid;
