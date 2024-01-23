@@ -1009,6 +1009,77 @@ form .submit:hover {
     font-size: 20px;
 }
 
+.skills-interests {
+    width: 75%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    padding-top: 20px;  
+}
+
+.skills-interests:hover {
+    transform: scale(1.01);
+}
+
+.skills-interests .skills-interests-title{
+    text-align: center;
+    color: #05386B;
+    padding-bottom: 40px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.language-skills {
+    border: 5px solid #EDF5E1;
+    background-color: rgba(231, 251, 240, 0.1);
+    border-radius: 15px;
+    display: grid;
+    grid-auto-flow: dense;
+    align-items: center; 
+    padding: 50px;
+    text-align: center;
+    color: #05386B;
+}
+
+.language-skills h1 {
+    font-size: 30px;
+}
+
+.language-skills p {
+    font-size: 25px;
+}
+
+.language-skills:hover {
+    transform: scale(1.05);
+}
+
+.interests {
+    border: 5px solid #EDF5E1;
+    background-color: rgba(231, 251, 240, 0.1);
+    border-radius: 15px;
+    display: grid;
+    grid-auto-flow: dense;
+    align-items: center; 
+    padding: 50px;
+    text-align: center;
+    color: #05386B;
+    margin-top: 50px;
+}
+
+.interests h1 {
+    font-size: 30px;
+}
+
+.interests p {
+    font-size: 25px;
+}
+
+.interests:hover {
+    transform: scale(1.05);
+}
+
+
 footer {
     clear: both;
     background-color: #379683;
