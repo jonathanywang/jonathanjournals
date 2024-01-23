@@ -4,7 +4,6 @@ body {
 }
 
 .core {
-    /*background-image: url(../img/IMG_5452.jpeg);*/
     background-color: #5CDB95;
     background-size: cover;
     background-position: center;
@@ -13,16 +12,6 @@ body {
     margin: 0;
 }
 
-/*header {
-    background-color: #59594A;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #FFF;
-    text-transform: uppercase;
-    margin-bottom: 100px;
-*/
-
 .top-section {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -30,7 +19,6 @@ body {
     overflow: hidden;
     box-shadow: 1px 1px 5px #05386B;
 }
-
 
 .pages a:link {
     float: right;
@@ -183,22 +171,6 @@ a:focus {
     border-start-start-radius: 55%;
     border-end-end-radius: 55%;
 }
-
-
-
-
-/*
-section {
-    float: left;
-    width: 70%;
-    margin-bottom: 100px;
-}
-
-aside {
-    float: right;
-    width: 25%;
-}
-*/
 
 .welcome {
     background-color: #05386B;
