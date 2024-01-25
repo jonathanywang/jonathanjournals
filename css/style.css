@@ -645,6 +645,7 @@ form .submit:hover {
 
 .school:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .school-img {
@@ -674,6 +675,7 @@ form .submit:hover {
 
 .technical-skills:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -727,6 +729,7 @@ form .submit:hover {
 
 .robotics:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .robotics h1{
@@ -754,6 +757,7 @@ form .submit:hover {
 
 .cubesat:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .cubesat h1 {
@@ -781,6 +785,7 @@ form .submit:hover {
 
 .bwsi:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .bwsi h1 {
@@ -829,6 +834,7 @@ form .submit:hover {
 
 .jonathanjournals:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .jonathanjournals h1{
@@ -857,6 +863,7 @@ form .submit:hover {
 
 .alieninvaders:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .alieninvaders h1{
@@ -908,6 +915,7 @@ form .submit:hover {
 
 .acsu:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .acsu h1{
@@ -939,6 +947,7 @@ form .submit:hover {
 
 .aaiv:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .aaiv h1{
@@ -970,6 +979,7 @@ form .submit:hover {
 
 .emotion:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .emotion h1{
@@ -1024,6 +1034,7 @@ form .submit:hover {
 
 .language-skills:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .interests {
@@ -1049,6 +1060,7 @@ form .submit:hover {
 
 .interests:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 
