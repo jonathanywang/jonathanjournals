@@ -1063,6 +1063,18 @@ form .submit:hover {
     cursor: pointer;
 }
 
+/* jouarnal entry #2 */
+.journal .update-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.journal .special-image {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 footer {
     clear: both;
