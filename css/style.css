@@ -1036,13 +1036,12 @@ form .submit:hover {
 }
 
 .iridium h3 h4 {
-    margin-left: 90px;
+    margin-left: 10vw;
 }
 
 .iridium p {
     font-size: 25px;
-    margin-left: 90px;
-    margin-right: 0px;
+    margin-left: 10vw;
 }
 
 .iridium:hover {
