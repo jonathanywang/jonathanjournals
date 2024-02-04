@@ -991,6 +991,65 @@ form .submit:hover {
     font-size: 20px;
 }
 
+.volunteering {
+    width: 75%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    padding-top: 20px;  
+}
+
+.volunteering:hover {
+    transform: scale(1.01);
+}
+
+.volunteering .volunteering-title {
+    text-align: center;
+    color: #05386B;
+    padding-bottom: 40px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.iridium {
+    margin-top: 50px;
+    background-color: rgba(231, 251, 240, 0.1);
+    border: 5px solid #EDF5E1;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-flow: dense;
+    align-items: center; 
+    padding: 50px;
+    text-align: center;
+    color: #05386B;
+}
+
+.iridium img {
+    border: 5px solid #EDF5E1;
+}
+
+
+.iridium h1 {
+    font-size: 30px;
+}
+
+.iridium h3 h4 {
+    margin-left: 90px;
+}
+
+.iridium p {
+    font-size: 25px;
+    margin-left: 90px;
+    margin-right: 0px;
+}
+
+.iridium:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .skills-interests {
     width: 75%;
     margin-top: 60px;
@@ -1004,7 +1063,7 @@ form .submit:hover {
     transform: scale(1.01);
 }
 
-.skills-interests .skills-interests-title{
+.skills-interests .skills-interests-title {
     text-align: center;
     color: #05386B;
     padding-bottom: 40px;
