@@ -1122,7 +1122,7 @@ form .submit:hover {
     cursor: pointer;
 }
 
-/* jouarnal entry #2 */
+/* journal entry #2 */
 .journal .update-text {
     font-weight: bold;
     text-align: center;
@@ -1134,6 +1134,7 @@ form .submit:hover {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 
 footer {
     clear: both;
